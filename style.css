@@ -1,0 +1,40 @@
+body {
+    background-color: #2c2f33;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#board {
+    width: 480px;
+    height: 480px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 3px solid #000;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.white {
+    background-color: #f0d9b5;
+    color: black;
+}
+
+.black {
+    background-color: #b58863;
+    color: black;
+}
+
+.selected {
+    outline: 3px solid red;
+}
