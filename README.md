@@ -1,4 +1,4 @@
-Chess – Vanilla JavaScript
+Chess
 
 A simple, functional chess game built using HTML, CSS, and JavaScript. The project features clean, readable code and a classic design. This version uses click-to-move logic for moving pieces and currently has no AI opponent.
 
