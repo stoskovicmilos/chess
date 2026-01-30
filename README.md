@@ -10,6 +10,4 @@ All chess pieces (King, Queen, Rook, Bishop, Knight, Pawn)
 
 Turns alternate between White and Black
 
-Click a piece → click a square to move it
-
 Clear visual highlighting of selected piece
